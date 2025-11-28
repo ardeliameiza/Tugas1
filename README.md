@@ -9,7 +9,7 @@ Tugas ini menerapkan konsep OOP seperti Encapsulation, Inheritance, Polymorphism
 
 
 ## 📂 Struktur Folder
-
+```
 Tugas1/
 │
 ├── StudiKasus1/
@@ -27,22 +27,26 @@ Tugas1/
 │   └── main.py
 │
 └── dokumentasi
+````
 
-Cara Menjalankan Program
+---
 
-Studi Kasus 1
+## ▶ Cara Menjalankan Program
 
+### Studi Kasus 1
+```bash
 cd StudiKasus1
 python main.py
+````
 
-Studi Kasus 2
+### Studi Kasus 2
 
+```bash
 cd StudiKasus2
 python main.py
-
-
-Studi Kasus 1 – Ringkasan Program
-
+```
+---
+## 📘 Studi Kasus 1 – Ringkasan Program
 | Class     | Deskripsi                                                                 |
 | --------- | ------------------------------------------------------------------------- |
 | Address   | Menampung data alamat dan validasi kode pos                               |
@@ -50,14 +54,15 @@ Studi Kasus 1 – Ringkasan Program
 | Student   | Turunan dari Person, memiliki atribut studentNumber dan averageMark       |
 | Professor | Turunan dari Person, memiliki atribut staffNumber, salary, dan supervises |
 
-Fungsi Utama:
+
+### Fungsi Utama:
 
 ✔ Menampilkan informasi mahasiswa dan profesor
 ✔ Validasi kode pos alamat
 ✔ Cek eligibility student untuk enroll
 ✔ Simulasi supervisi oleh professor
 
-Studi Kasus 2 – Ringkasan Program
+## 📗 Studi Kasus 2 – Ringkasan Program
 
 | Class         | Deskripsi                                             |
 | ------------- | ----------------------------------------------------- |
@@ -66,23 +71,23 @@ Studi Kasus 2 – Ringkasan Program
 | LibraryItem   | Item perpustakaan seperti buku/jurnal                 |
 | LibraryMember | Anggota perpustakaan yang bisa meminjam item          |
 
-Fungsi Utama:
+### Fungsi Utama:
 
 ✔ Menampilkan detail buku dan penulis
 ✔ Peminjaman dan pengembalian item perpustakaan
 ✔ Relasi antara LibraryMember dan LibraryItem
 
-Konsep OOP yang Diterapkan
+## 🛠 Konsep OOP yang Diterapkan
 
 | Konsep OOP    | Implementasi                                     |
 | ------------- | ------------------------------------------------ |
 | Encapsulation | Atribut dibuat privat dan diakses melalui method |
 | Inheritance   | Student dan Professor mewarisi dari Person       |
-| Polymorphism  | Method showInfo() di-override oleh subclass    |
+| Polymorphism  | Method `showInfo()` di-override oleh subclass    |
 | Abstraction   | Pemisahan logika dalam class modular             |
 | Modularitas   | Pemisahan setiap class dalam file terpisah       |
 
-Dokumentasi Penggunaan AI (Prompt–Response)
+## 💬 Dokumentasi Penggunaan AI (Prompt–Response)
 
 **Prompt 1:**
 *Bantu saya membenarkan error yang terjadi*
