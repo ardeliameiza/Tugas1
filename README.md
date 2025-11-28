@@ -26,8 +26,6 @@ Tugas1/
 │   ├── librarymember.py
 │   └── main.py
 │
-└── README.md
-│
 └── dokumentasi
 
 Cara Menjalankan Program
